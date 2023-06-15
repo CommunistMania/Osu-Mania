@@ -120,9 +120,8 @@ class Window:
                 rect(0, 20, self.count * (1300/self.endtime), 30, 30)
                 if self.count / 3 > self.endtime:
                     self.go = False
-                    if self.count / 3 > self.endtime + 100:
-                        self.play = False
-                        self.endscreen = True
+                    self.play = False
+                    self.endscreen = True
                 
             a = 0
             b = 0
